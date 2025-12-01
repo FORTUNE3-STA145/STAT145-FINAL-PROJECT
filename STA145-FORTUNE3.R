@@ -34,3 +34,6 @@ table(data$gov_salary)
 table(data$gov_education
 
 ####################Figure 1: Contigency Table###############################################
+table(data$gov_salary, data$gov_education)
+
+chisq.test(table(data$gov_salary, data$gov_education))
