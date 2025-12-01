@@ -26,14 +26,19 @@ describe("data")
 data_complete <- data %>%
   filter(complete.cases(.))
 
-#####################Table 1: DESCRIPTIVE STATISTICS#########################################
+#####################DESCRIPTIVE STATISTICS#########################################
 # Governor educated
 table(data$gov_education
 
 # Governor salary
 table(data$gov_salary)
-      
-####################Figure 1: Contigency Table###############################################
+
+#######################Figure 1: Box Plot############################################
+
+# Sample data
+education <- rep(c "Highschool", "Associates", "Bachelors", "Masters", "Doctorate", "Law", "Honorary Doctorate"), each = 
+
+####################Table 2: Contigency Table########################################
 table(data$gov_education, data$gov_salary)
 
 chisq.test(table(data$gov_education, data$gov_salary))
