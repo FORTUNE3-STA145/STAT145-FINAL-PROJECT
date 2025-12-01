@@ -35,8 +35,8 @@ table(data$gov_salary)
 
 #######################Figure 1: Box Plot############################################
 
-# Sample data
-education <- rep(c "Highschool", "Associates", "Bachelors", "Masters", "Doctorate", "Law", "Honorary Doctorate"), each = 
+# Plot the box plot 
+ggplot(gov_education)
 
 ####################Table 2: Contigency Table########################################
 table(data$gov_education, data$gov_salary)
