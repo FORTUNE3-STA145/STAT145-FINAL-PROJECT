@@ -36,7 +36,13 @@ table(data$gov_salary)
 #######################Figure 1: Box Plot############################################
 
 # Plot the box plot 
-ggplot(gov_education)
+ggplot(data, aes (x = gov_education, y = gov_salary, fill = gov_education)) + geom_boxplot() + 
+lab(title = "Salary Distribution by Education Level)
+x = "Education Level"
+y = "Annual Income in Thousands (1,000$)")
+
+theme_minimal () +
+theme(legend.position = "none")
 
 ####################Table 2: Contigency Table########################################
 table(data$gov_education, data$gov_salary)
