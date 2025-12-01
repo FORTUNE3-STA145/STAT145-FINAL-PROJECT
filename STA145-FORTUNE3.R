@@ -27,13 +27,13 @@ data_complete <- data %>%
   filter(complete.cases(.))
 
 #####################Table 1: DESCRIPTIVE STATISTICS#########################################
-# Governor salary
-table(data$gov_salary)
-
 # Governor educated
 table(data$gov_education
 
+# Governor salary
+table(data$gov_salary)
+      
 ####################Figure 1: Contigency Table###############################################
-table(data$gov_salary, data$gov_education)
+table(data$gov_education, data$gov_salary)
 
-chisq.test(table(data$gov_salary, data$gov_education))
+chisq.test(table(data$gov_education, data$gov_salary))
