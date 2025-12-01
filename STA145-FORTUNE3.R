@@ -34,6 +34,11 @@ table(data$gov_education
 table(data$gov_salary)
 
 #######################Figure 1: Box Plot############################################
+# Box Plot Information
+lm(gov_salary ~ gov_education, data = data)
+aov(gov_salary ~ gov_education, data = data)
+summary(gov_salary ~ gov_education, data = data)
+boxplot(gov_salary ~ gov_education, data = data)
 
 # Plot the box plot 
 ggplot(data, aes (x = gov_education, y = gov_salary, fill = gov_education)) + geom_boxplot() + 
