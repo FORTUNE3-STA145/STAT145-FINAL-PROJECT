@@ -12,4 +12,4 @@ To operalizationize the salary of the U.S. governors since 2000, I went to Googl
 
 I also used Wikepedia to find the education levels of each governor.
 
-The concept of governor salary was operalizationized by reviewing their public records of income.
+The concept of governor salary was operalizationized by reviewing their public records of income. 
