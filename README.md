@@ -1,16 +1,16 @@
 # STAT145-FINAL-PROJECT
-This is my final project for STA-145. I researched the education level and reported salary of each U.S. governor from 2000 to the present. I am seeking to find out if the respective education level of each governor holds an effect, or is associated with, the amount of salary each governor earned while in office. 
+This is my final project for STA-145. I researched the education level and reported salary of each U.S. governor in all 50 states from 2000 to the present. I am seeking to find out if the respective education level of each governor holds an effect, or is associated with, the amount of salary each governor earned while in office. 
 
 # INSTRUCTIONS
-To access and utilize the script, open the "STA145-FORTUNE3.R" file, which contains the code for my project. To access the dataset, open the "data.csv UPDATED" file.
+To access and utilize the script, open the "STA145-FORTUNE3.R" file, which contains the code for my project. To access the dataset, open the "data.csv" file. The script can be imported into RStudio.
 
 # DATA
-The data collected for this project was the reported annual salary of every U.S. governor in each of the fifty states from 2000 to the present during their time in office. The main goal of this analysis is to see if their education level effected how much income they earn, or if income is the unrelated to their education level, and is instead caused by other variables, such as their governing state.
+The data collected for this project was the reported salary of each U.S. governor in each of the 50 states from 2000 to the present, 2025 during their time in office. The main goal of this analysis was to see if their education level effected how much income they earn, or if income is the unrelated to their education level, and is instead caused by other variables, such as the laws of their governing state.
 
 # OPERALIZATION
-To operationalize the salary of the U.S. governors since 2000, I went to Google and used Wikepedia as my main source, and I recorded each governor's cummilative  salary reported at the end of their term. 
+To operationalize the salary of the U.S. governors since 2000, we used Wikepedia as our primary source for information. We recorded each governor's cummilative salary reported at the end of their term. When salary information was not provided by Wikipedia, we sourced from the National Governor’s Association or public income-records.
 
-I also used Wikepedia to find the education levels of each governor.
+We also used Wikepedia as the primary source to find the education level of each governor, and National Governors Association as our secondary source.
 
 Salary was operationalized by reviewing each governor's public record of income and curating a range of potential salaries that are both mutually exclusive and exhaustive for any possible salary that governors may earn. The codes of these variables are ordinal. The lowest range of values starts at the typically estimated income for U.S. citizens in the upper 20%, that being $106,000, but also includes any and every potenial income lesser than. Each value following increases in range by $36,000. The highest range of values ends at the typically estimated income for U.S. citizens well-off in the upper 5%, that being $214,000, but also includes any and every possible income greater than. Also included is a value for any governor who may not have taken their earned salary, and instead may have donated it or dispersed it back into their respective state.
 
