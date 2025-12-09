@@ -27,29 +27,13 @@ data_complete <- data %>%
   filter(complete.cases(.))
 
 #####################DESCRIPTIVE STATISTICS#########################################
-# Governor educated
+# Governor education
 table(data$gov_education
 
 # Governor salary
 table(data$gov_salary)
 
-#######################Figure 1: Box Plot############################################
-# Box Plot Information
-lm(gov_salary ~ gov_education, data = data)
-aov(gov_salary ~ gov_education, data = data)
-summary(gov_salary ~ gov_education, data = data)
-boxplot(gov_salary ~ gov_education, data = data)
-
-# Plot the box plot 
-ggplot(data, aes (x = gov_education, y = gov_salary, fill = gov_education)) + geom_boxplot() + 
-lab(title = "Salary Distribution by Education Level)
-x = "Education Level"
-y = "Annual Income in Thousands (1,000$)")
-
-theme_minimal () +
-theme(legend.position = "none")
-
-####################Table 2: Contigency Table########################################
+####################Contigency Table Results########################################
 table(data$gov_education, data$gov_salary)
 
 chisq.test(table(data$gov_education, data$gov_salary))
